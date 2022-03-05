@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { API } from 'aws-amplify';
 
 import './App.css';
+import { GitHubBornOn } from './gitHubBornOn'; 
 
 const App = () => {
   
@@ -76,6 +77,7 @@ const App = () => {
         }
       </div>
         }
+        <GitHubBornOn />
     </div>
   );
 }
